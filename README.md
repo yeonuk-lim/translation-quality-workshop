@@ -96,17 +96,10 @@ pip install boto3 pandas matplotlib
 - 용어 일관성: 용어집 준수, 브랜드명 정확도
 - 문화/톤: 존대/격식, 브랜드 보이스, 자연스러운 표현
 
-### 개선 사이클
-
-
-번역 → 평가 → 피드백 → 재번역 → 재평가
- ↑ ↓
- └──── 점수 < 4 ────────┘
 
 ## 참고 자료
 
 - [Amazon Bedrock 문서](https://docs.aws.amazon.com/bedrock/)
-- [번역 품질 평가 프레임워크](https://github.com/your-repo/translation-eval-framework)
 
 ### 라이선스
 
