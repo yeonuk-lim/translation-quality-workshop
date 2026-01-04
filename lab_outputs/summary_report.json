@@ -1,0 +1,48 @@
+{
+  "workshop_summary": {
+    "total_faq_items": 6,
+    "translation_methods": [
+      "zero_shot",
+      "few_shot",
+      "glossary",
+      "us_targeted"
+    ],
+    "evaluation_types": [
+      "faithfulness",
+      "terminology",
+      "culture_tone"
+    ]
+  },
+  "method_scores": {
+    "zero_shot": {
+      "faithfulness": 4.833333333333333,
+      "terminology": 4.166666666666667,
+      "tone": 3.6666666666666665,
+      "average": 4.222222222222222
+    },
+    "few_shot": {
+      "faithfulness": 4.5,
+      "terminology": 4.833333333333333,
+      "tone": 3.6666666666666665,
+      "average": 4.333333333333333
+    },
+    "glossary": {
+      "faithfulness": 4.5,
+      "terminology": 5.0,
+      "tone": 3.6666666666666665,
+      "average": 4.388888888888888
+    },
+    "us_targeted": {
+      "similarity_avg": 4.0,
+      "faithfulness_avg": 4.5,
+      "terminology_avg": 4.5,
+      "tone_avg": 3.1666666666666665
+    }
+  },
+  "improvement": {
+    "from": 4.222222222222222,
+    "to": 4.055555555555555,
+    "percentage": -3.947368421052638
+  },
+  "gb_completed": false
+}

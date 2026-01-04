@@ -1,0 +1,540 @@
+{
+  "zero_shot": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "source": "삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?",
+      "translation": "Do I need a Samsung account to use Samsung Cloud?",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Samsung Cloud",
+          "expected": "Samsung Cloud",
+          "found": "Samsung Cloud",
+          "correct": true
+        },
+        {
+          "term": "Samsung account",
+          "expected": "Samsung account",
+          "found": "Samsung account",
+          "correct": true
+        },
+        {
+          "term": "계정",
+          "expected": "account",
+          "found": "account",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 용어집 기준에 완벽하게 부합합니다.",
+      "reasoning": "모든 용어가 용어집 기준에 정확히 매핑되었습니다. 'Samsung Cloud'와 'Samsung account'는 브랜드명으로서 원문 그대로 유지되었고, '계정'은 'account'로 정확히 번역되었습니다. 용어 일관성이 완벽하게 지켜졌습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:14.912852"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "source": "삼성 계정을 단말에서 제거하면 어떻게 되나요?",
+      "translation": "What happens when you remove a Samsung account from the device?",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Samsung",
+          "expected": "Samsung",
+          "found": "Samsung",
+          "correct": true
+        },
+        {
+          "term": "계정",
+          "expected": "account",
+          "found": "account",
+          "correct": true
+        },
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 완벽하므로 개선 사항 없음",
+      "reasoning": "원문에 포함된 모든 용어가 용어집에 정의된 대로 정확히 번역되었습니다. 'Samsung'은 브랜드명으로 그대로 유지되었고, '계정'은 'account', '단말'은 'device'로 용어집과 일치하게 번역되었습니다. 번역의 자연스러움과 의미 전달도 완벽합니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:17.845573"
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "source": "삼성 클라우드 웹페이지 접속 후 Contact us를 통해 '1대1 문의하기'로 문의해주시면 사용자 정보 확인 후 차단 해제가 가능합니다.",
+      "translation": "After accessing the Samsung Cloud webpage, please contact us through \"Contact us\" via \"1:1 Inquiry\" and we can lift the block after verifying your user information.",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Samsung Cloud",
+          "expected": "Samsung Cloud",
+          "found": "Samsung Cloud",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "현재 번역이 용어집 기준에 완전히 부합합니다.",
+      "reasoning": "용어집에 포함된 'Samsung Cloud'가 번역문에서 정확히 보존되어 사용되었습니다. 다른 용어집 항목들은 해당 텍스트에 포함되지 않았으므로 평가 대상이 아닙니다. 브랜드명이 올바르게 유지되었고 용어 일관성에 문제가 없습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:20.393573"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "source": "갤럭시 단말이 현재 없습니다. 삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?",
+      "translation": "I don't currently have a Galaxy device. Is there a way to check the data or information that was saved and synced to Samsung services?",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Galaxy",
+          "expected": "Galaxy",
+          "found": "Galaxy",
+          "correct": true
+        },
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        },
+        {
+          "term": "저장",
+          "expected": "saved",
+          "found": "saved",
+          "correct": true
+        },
+        {
+          "term": "동기화",
+          "expected": "sync",
+          "found": "synced",
+          "correct": true
+        },
+        {
+          "term": "Samsung",
+          "expected": "Samsung",
+          "found": "Samsung",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 용어집 기준에 완벽하게 부합합니다. 현재 상태를 유지하세요.",
+      "reasoning": "모든 핵심 용어가 용어집 기준에 정확히 맞게 번역되었습니다. 'Galaxy'와 'Samsung'과 같은 브랜드명이 원문 그대로 유지되었고, '단말'은 'device'로, '동기화'는 'synced'(sync의 과거분사형)로 적절히 번역되었습니다. 문맥상 자연스럽고 기술적 정확성도 확보되어 있습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:24.095647"
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "source": "특정 단말, 국가, 사업자에 따라 지원 여부는 다를 수 있습니다.",
+      "translation": "Support availability may vary depending on the specific device, country, and carrier.",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 정확하므로 개선사항 없음",
+      "reasoning": "원문에서 용어집에 해당하는 단어는 '단말' 하나뿐이며, 이것이 용어집에 정의된 대로 'device'로 정확하게 번역되었습니다. 다른 모든 단어들('특정', '국가', '사업자', '지원 여부' 등)은 용어집에 포함되지 않은 일반 용어들로, 자연스럽고 적절하게 번역되었습니다. 브랜드명이나 기술 용어의 오번역이 없어 완벽한 용어 일관성을 보입니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:29.058193"
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "source": "어디로 가면 클라우드 휴지통을 확인할 수 있나요?",
+      "translation": "Where can I go to check the cloud recycle bin?",
+      "method": "zero_shot",
+      "score": 0,
+      "verdict": "Fail",
+      "term_checks": [
+        {
+          "term": "휴지통",
+          "expected": "Trash",
+          "found": "recycle bin",
+          "correct": false
+        }
+      ],
+      "issues": [
+        "용어집에서 '휴지통'은 'Trash'로 번역되어야 하나 'recycle bin'으로 번역됨"
+      ],
+      "suggestion": "Where can I go to check the cloud Trash?",
+      "reasoning": "용어집에 명시된 핵심 용어인 '휴지통'이 'Trash'가 아닌 'recycle bin'으로 번역되어 용어 일관성을 위반했습니다. 이는 기술 문서나 UI에서 일관된 용어 사용을 위해 반드시 수정이 필요한 오류입니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:32.137663"
+    }
+  ],
+  "few_shot": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "source": "삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?",
+      "translation": "Do I need a Samsung account to use Samsung Cloud?",
+      "method": "few_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "삼성 클라우드",
+          "expected": "Samsung Cloud",
+          "found": "Samsung Cloud",
+          "correct": true
+        },
+        {
+          "term": "삼성 계정",
+          "expected": "Samsung account",
+          "found": "Samsung account",
+          "correct": true
+        },
+        {
+          "term": "계정",
+          "expected": "account",
+          "found": "account",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 용어집 기준에 완벽하게 일치합니다.",
+      "reasoning": "원문에 포함된 모든 용어가 용어집의 정의대로 정확하게 번역되었습니다. '삼성 클라우드'는 'Samsung Cloud'로, '삼성 계정'은 'Samsung account'로 브랜드명이 그대로 보존되었고, '계정'은 'account'로 일관성 있게 번역되었습니다. 용어 누락이나 불일치 사항이 전혀 없어 완벽한 용어 일관성을 보여줍니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:43.668333"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "source": "삼성 계정을 단말에서 제거하면 어떻게 되나요?",
+      "translation": "What happens if I remove my Samsung account from my device?",
+      "method": "few_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Samsung account",
+          "expected": "Samsung account",
+          "found": "Samsung account",
+          "correct": true
+        },
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        },
+        {
+          "term": "계정",
+          "expected": "account",
+          "found": "account",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 용어집의 모든 규칙을 정확히 따르고 있어 개선이 필요하지 않습니다.",
+      "reasoning": "원문에 포함된 모든 용어('Samsung account', '단말', '계정')가 용어집에 정의된 대로 정확히 번역되었습니다. 브랜드명인 'Samsung account'는 번역되지 않고 그대로 유지되었으며, '단말'은 'device'로, '계정'은 'account'로 일관성 있게 번역되었습니다. 용어 누락이나 불일치가 전혀 없어 완벽한 번역 품질을 보여줍니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:48.700149"
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "source": "삼성 클라우드 웹페이지 접속 후 Contact us를 통해 '1대1 문의하기'로 문의해주시면 사용자 정보 확인 후 차단 해제가 가능합니다.",
+      "translation": "After accessing the Samsung Cloud webpage, you can contact us through \"Contact us\" and use \"1-on-1 Inquiry\" to submit your request. We can unblock your account after verifying your user information.",
+      "method": "few_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Samsung Cloud",
+          "expected": "Samsung Cloud",
+          "found": "Samsung Cloud",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "현재 번역이 용어집 기준에 완벽하게 부합합니다.",
+      "reasoning": "원문에서 용어집에 해당하는 단어는 'Samsung Cloud'뿐이며, 번역문에서도 'Samsung Cloud'로 정확하게 보존되었습니다. 브랜드명이 번역되지 않고 그대로 유지되었고, 다른 용어집 항목들은 원문에 등장하지 않아 평가 대상이 아닙니다. 모든 용어가 정확하고 일관성이 완벽합니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:51.767064"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "source": "갤럭시 단말이 현재 없습니다. 삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?",
+      "translation": "I don't currently have a Galaxy device. Is there a way to check data or information that was saved and synchronized to Samsung services?",
+      "method": "few_shot",
+      "score": 4,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Galaxy",
+          "expected": "Galaxy",
+          "found": "Galaxy",
+          "correct": true
+        },
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        },
+        {
+          "term": "저장",
+          "expected": "save",
+          "found": "saved",
+          "correct": true
+        },
+        {
+          "term": "동기화",
+          "expected": "sync",
+          "found": "synchronized",
+          "correct": false
+        }
+      ],
+      "issues": [
+        "'동기화'가 용어집 기준 'sync'가 아닌 'synchronized'로 번역됨"
+      ],
+      "suggestion": "'synchronized'를 'synced'로 수정하여 용어집과 일치시킬 것을 권장",
+      "reasoning": "브랜드명 Galaxy와 주요 기술 용어들이 대부분 올바르게 번역되었으나, '동기화' 용어에서 경미한 불일치가 발견됨. 'synchronized'는 의미상 correct하지만 용어집에서는 'sync'를 권장하므로 'synced'가 더 적절함. 전반적으로 번역 품질은 양호하여 통과 수준임",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:55.866057"
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "source": "특정 단말, 국가, 사업자에 따라 지원 여부는 다를 수 있습니다.",
+      "translation": "Support may vary depending on the specific device, country, or carrier.",
+      "method": "few_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 정확하므로 개선 사항 없음",
+      "reasoning": "원문에서 용어집에 포함된 단어는 '단말'뿐이며, 이것이 용어집 규정대로 'device'로 정확히 번역되었습니다. 다른 단어들('특정', '국가', '사업자', '지원 여부')은 용어집에 포함되지 않은 일반 용어로서 자연스럽게 번역되었습니다. 브랜드명이나 기술 용어의 오역 사례가 없으며, 용어 일관성이 완벽하게 유지되었습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:03:58.989246"
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "source": "어디로 가면 클라우드 휴지통을 확인할 수 있나요?",
+      "translation": "Where can I go to check my Cloud Trash?",
+      "method": "few_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "휴지통",
+          "expected": "Trash",
+          "found": "Trash",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 용어집 기준에 완벽하게 부합합니다.",
+      "reasoning": "원문에서 사용된 '휴지통'이 용어집에 정의된 대로 'Trash'로 정확하게 번역되었습니다. 'Cloud'는 용어집에 직접 정의되어 있지 않지만 Samsung Cloud의 일부로서 적절하게 처리되었고, 전체적으로 자연스러운 영어 표현을 유지하고 있습니다. 모든 용어가 일관성 있게 적용되어 완벽한 번역 품질을 보여줍니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:04:02.249867"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "source": "삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?",
+      "translation": "Do I need a Samsung account to use Samsung Cloud?",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "삼성 클라우드",
+          "expected": "Samsung Cloud",
+          "found": "Samsung Cloud",
+          "correct": true
+        },
+        {
+          "term": "삼성 계정",
+          "expected": "Samsung account",
+          "found": "Samsung account",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "현재 번역이 완벽하므로 수정사항 없음",
+      "reasoning": "원문에 나타난 모든 용어(삼성 클라우드 → Samsung Cloud, 삼성 계정 → Samsung account)가 용어집의 정의에 따라 정확하게 번역되었습니다. 브랜드명이 적절히 보존되었고, 기술 용어의 일관성도 완벽하게 유지되었습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:04:11.709440"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "source": "삼성 계정을 단말에서 제거하면 어떻게 되나요?",
+      "translation": "What happens when you remove your Samsung account from the device?",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "삼성 계정",
+          "expected": "Samsung account",
+          "found": "Samsung account",
+          "correct": true
+        },
+        {
+          "term": "계정",
+          "expected": "account",
+          "found": "account",
+          "correct": true
+        },
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 용어집과 완벽하게 일치합니다. 현재 번역을 유지하세요.",
+      "reasoning": "원문에 포함된 모든 용어가 용어집에 정의된 대로 정확히 번역되었습니다. '삼성 계정'은 'Samsung account'로, '단말'은 'device'로, '계정'은 'account'로 각각 용어집과 일치하게 번역되었으며, 브랜드명인 Samsung도 그대로 보존되었습니다. 용어 일관성이 완벽하게 유지되었습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:04:15.155980"
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "source": "삼성 클라우드 웹페이지 접속 후 Contact us를 통해 '1대1 문의하기'로 문의해주시면 사용자 정보 확인 후 차단 해제가 가능합니다.",
+      "translation": "After accessing the Samsung Cloud webpage, please contact us through \"Contact us\" → \"1:1 inquiry\" and we can unblock your account after verifying your user information.",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Samsung Cloud",
+          "expected": "Samsung Cloud",
+          "found": "Samsung Cloud",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 정확하며 개선할 사항이 없습니다.",
+      "reasoning": "용어집에 포함된 'Samsung Cloud'가 번역문에서 정확히 보존되었습니다. 다른 용어집 항목들은 원문에 나타나지 않았으므로 평가 대상이 아닙니다. 브랜드명이 올바르게 유지되었고, 전체적인 번역의 일관성도 우수합니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:04:17.764665"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "source": "갤럭시 단말이 현재 없습니다. 삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?",
+      "translation": "I don't currently have a Galaxy device. Is there a way to check data or information that was stored and synced to Samsung services?",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "Galaxy",
+          "expected": "Galaxy",
+          "found": "Galaxy",
+          "correct": true
+        },
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        },
+        {
+          "term": "동기화",
+          "expected": "sync",
+          "found": "synced",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 용어집을 완벽하게 준수하고 있어 개선이 필요하지 않습니다.",
+      "reasoning": "원문에서 사용된 모든 용어집 해당 단어들이 정확하게 번역되었습니다. 'Galaxy'는 브랜드명으로 그대로 유지되었고, '단말'은 'device'로, '동기화'는 'synced'(sync의 과거분사형)로 올바르게 번역되었습니다. 브랜드명 보존과 기술 용어 일관성 모두 완벽하게 지켜졌습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:04:23.235611"
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "source": "특정 단말, 국가, 사업자에 따라 지원 여부는 다를 수 있습니다.",
+      "translation": "Support may vary depending on the specific device, country, or carrier.",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "단말",
+          "expected": "device",
+          "found": "device",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "현재 번역이 용어집 기준에 완벽하게 부합합니다.",
+      "reasoning": "원문에서 용어집에 해당하는 단어는 '단말'뿐이며, 이것이 용어집 기준에 따라 'device'로 정확하게 번역되었습니다. 다른 모든 단어들('특정', '국가', '사업자', '지원', '여부' 등)은 용어집에 포함되지 않은 일반 용어로서 적절하게 번역되었습니다. 브랜드명이나 기술 용어의 오번역이 없으며, 용어 일관성이 완벽하게 유지되었습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:04:28.602947"
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "source": "어디로 가면 클라우드 휴지통을 확인할 수 있나요?",
+      "translation": "Where can I go to check the cloud Trash?",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "term_checks": [
+        {
+          "term": "휴지통",
+          "expected": "Trash",
+          "found": "Trash",
+          "correct": true
+        }
+      ],
+      "issues": [],
+      "suggestion": "번역이 용어집 기준에 완벽하게 부합합니다.",
+      "reasoning": "원문에서 사용된 '휴지통'이 용어집에 정의된 대로 'Trash'로 정확히 번역되었습니다. 'cloud'는 용어집에 별도 정의가 없어 소문자로 번역된 것은 적절하며, 전체적으로 용어 일관성이 완벽하게 유지되었습니다.",
+      "eval_type": "terminology",
+      "timestamp": "2026-01-04T21:04:33.048663"
+    }
+  ],
+  "summary": {
+    "zero_shot": {
+      "method": "Zero-shot",
+      "avg_score": 4.166666666666667,
+      "pass_count": 5,
+      "review_count": 0,
+      "fail_count": 1,
+      "total": 6
+    },
+    "few_shot": {
+      "method": "Few-shot",
+      "avg_score": 4.833333333333333,
+      "pass_count": 6,
+      "review_count": 0,
+      "fail_count": 0,
+      "total": 6
+    },
+    "glossary": {
+      "method": "용어집",
+      "avg_score": 5.0,
+      "pass_count": 6,
+      "review_count": 0,
+      "fail_count": 0,
+      "total": 6
+    }
+  },
+  "_metadata": {
+    "saved_at": "2026-01-04T21:05:19.399820",
+    "model": "Claude Sonnet 4"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "zero_shot": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "source": "삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?",
+      "translation": "Do I need a Samsung account to use Samsung Cloud?",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문과 번역문이 의미상 완전히 일치합니다. '삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?'가 'Do I need a Samsung account to use Samsung Cloud?'로 정확하게 번역되었으며, 의미 손실, 추가, 왜곡이 전혀 없습니다. 질문의 핵심 요소인 '삼성 계정 필요성'과 '삼성 클라우드 사용'이 모두 정확하게 전달되었습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:09.149212"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "source": "삼성 계정을 단말에서 제거하면 어떻게 되나요?",
+      "translation": "What happens when you remove a Samsung account from the device?",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문과 번역문이 의미적으로 완벽하게 일치합니다. '삼성 계정을 단말에서 제거하면 어떻게 되나요?'가 'What happens when you remove a Samsung account from the device?'로 정확하게 번역되었으며, 의미 손실, 추가, 왜곡이 전혀 없습니다. 모든 핵심 요소(삼성 계정, 단말/기기에서 제거, 결과에 대한 질문)가 충실하게 번역되었습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:12.833442"
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "source": "삼성 클라우드 웹페이지 접속 후 Contact us를 통해 '1대1 문의하기'로 문의해주시면 사용자 정보 확인 후 차단 해제가 가능합니다.",
+      "translation": "After accessing the Samsung Cloud webpage, please contact us through \"Contact us\" via \"1:1 Inquiry\" and we can lift the block after verifying your user information.",
+      "method": "zero_shot",
+      "score": 4,
+      "verdict": "Pass",
+      "issues": [
+        "'Contact us'가 중복적으로 언급됨"
+      ],
+      "suggestion": "After accessing the Samsung Cloud webpage, please contact us through '1:1 Inquiry' and we can lift the block after verifying your user information.",
+      "reasoning": "원문의 핵심 의미인 '삼성 클라우드 웹페이지 접속', '1대1 문의하기를 통한 연락', '사용자 정보 확인 후 차단 해제'가 모두 정확하게 번역되었습니다. 다만 'Contact us를 통해'와 'contact us through'에서 'Contact us'가 두 번 언급되는 약간의 중복이 있어 문장이 다소 어색합니다. 전체적으로 의미 전달에는 문제가 없으나 표현상 경미한 개선이 필요합니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:17.592890"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "source": "갤럭시 단말이 현재 없습니다. 삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?",
+      "translation": "I don't currently have a Galaxy device. Is there a way to check the data or information that was saved and synced to Samsung services?",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문의 모든 핵심 의미가 정확하게 번역되었습니다. '갤럭시 단말이 현재 없습니다'가 'I don't currently have a Galaxy device'로, '삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?'가 'Is there a way to check the data or information that was saved and synced to Samsung services?'로 완벽하게 대응됩니다. 의미 손실, 추가, 왜곡이 전혀 없으며, 자연스러운 영어 표현으로 번역되었습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:21.097754"
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "source": "특정 단말, 국가, 사업자에 따라 지원 여부는 다를 수 있습니다.",
+      "translation": "Support availability may vary depending on the specific device, country, and carrier.",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문의 모든 핵심 요소가 정확하게 번역되었습니다. '특정 단말, 국가, 사업자에 따라'는 'depending on the specific device, country, and carrier'로, '지원 여부는 다를 수 있습니다'는 'Support availability may vary'로 적절하게 번역되었습니다. 의미 손실, 추가, 왜곡이 없으며 원문의 의도를 완전히 전달하고 있습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:24.695159"
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "source": "어디로 가면 클라우드 휴지통을 확인할 수 있나요?",
+      "translation": "Where can I go to check the cloud recycle bin?",
+      "method": "zero_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문의 의미가 번역문에 완전히 일치합니다. '어디로 가면'은 'Where can I go to'로, '클라우드 휴지통을'은 'the cloud recycle bin'으로, '확인할 수 있나요'는 'check'로 정확하게 번역되었습니다. 의미 손실, 추가, 왜곡이 전혀 없으며 자연스러운 영어 표현입니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:28.111530"
+    }
+  ],
+  "few_shot": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "source": "삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?",
+      "translation": "Do I need a Samsung account to use Samsung Cloud?",
+      "method": "few_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문의 의미가 번역문에 완전히 정확하게 전달되었습니다. '삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?'라는 질문이 'Do I need a Samsung account to use Samsung Cloud?'로 완벽하게 번역되어 의미 손실, 추가, 왜곡이 전혀 없습니다. 문법적으로도 자연스럽고 적절한 영어 표현입니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:37.391411"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "source": "삼성 계정을 단말에서 제거하면 어떻게 되나요?",
+      "translation": "What happens if I remove my Samsung account from my device?",
+      "method": "few_shot",
+      "score": 4,
+      "verdict": "Pass",
+      "issues": [
+        "'my'라는 소유격이 원문에 명시되지 않았음"
+      ],
+      "suggestion": "What happens if I remove a Samsung account from my device? 또는 What happens if I remove the Samsung account from my device?",
+      "reasoning": "원문의 핵심 의미인 '삼성 계정을 단말에서 제거하면 어떻게 되는지'에 대한 질문이 정확히 번역되었습니다. 다만 원문에서는 '삼성 계정'이라고 했는데 번역문에서는 'my Samsung account'로 소유격을 추가했습니다. 이는 자연스러운 영어 표현을 위한 것으로 보이지만 원문에 없는 내용을 추가한 것입니다. 전체적으로는 의미가 잘 전달되어 경미한 뉘앙스 차이 수준입니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:42.637588"
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "source": "삼성 클라우드 웹페이지 접속 후 Contact us를 통해 '1대1 문의하기'로 문의해주시면 사용자 정보 확인 후 차단 해제가 가능합니다.",
+      "translation": "After accessing the Samsung Cloud webpage, you can contact us through \"Contact us\" and use \"1-on-1 Inquiry\" to submit your request. We can unblock your account after verifying your user information.",
+      "method": "few_shot",
+      "score": 4,
+      "verdict": "Pass",
+      "issues": [
+        "'Contact us'가 중복으로 언급되어 약간의 표현상 어색함이 있음"
+      ],
+      "suggestion": "After accessing the Samsung Cloud webpage, please contact us through 'Contact us' using '1-on-1 Inquiry' to submit your request. We can unblock your account after verifying your user information.",
+      "reasoning": "원문의 핵심 의미가 모두 정확히 전달되었습니다. '삼성 클라우드 웹페이지 접속', 'Contact us를 통한 1대1 문의', '사용자 정보 확인 후 차단 해제'라는 모든 주요 내용이 번역에 포함되어 있습니다. 다만 'Contact us를 통해'와 'Contact us'가 중복되어 언급되면서 약간의 표현상 어색함이 있지만, 의미 전달에는 문제가 없고 이해하기 쉽게 번역되었습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:47.875098"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "source": "갤럭시 단말이 현재 없습니다. 삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?",
+      "translation": "I don't currently have a Galaxy device. Is there a way to check data or information that was saved and synchronized to Samsung services?",
+      "method": "few_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "번역문이 원문의 의미를 완벽하게 전달하고 있습니다. '갤럭시 단말이 현재 없습니다'는 'I don't currently have a Galaxy device'로, '삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?'는 'Is there a way to check data or information that was saved and synchronized to Samsung services?'로 정확하게 번역되었습니다. 의미 손실, 추가, 왜곡이 전혀 없으며, 문맥과 뉘앙스도 적절하게 보존되었습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:50.659176"
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "source": "특정 단말, 국가, 사업자에 따라 지원 여부는 다를 수 있습니다.",
+      "translation": "Support may vary depending on the specific device, country, or carrier.",
+      "method": "few_shot",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문의 모든 핵심 요소가 정확하게 번역되었습니다. '특정 단말, 국가, 사업자'는 'specific device, country, or carrier'로, '지원 여부는 다를 수 있습니다'는 'Support may vary'로 의미와 뉘앙스가 완벽하게 전달되었습니다. 의미 손실, 추가, 왜곡이 전혀 없으며 자연스러운 영어 표현으로 번역되었습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:53.006034"
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "source": "어디로 가면 클라우드 휴지통을 확인할 수 있나요?",
+      "translation": "Where can I go to check my Cloud Trash?",
+      "method": "few_shot",
+      "score": 4,
+      "verdict": "Pass",
+      "issues": [
+        "'Cloud Trash'보다 'Cloud Recycle Bin' 또는 'Cloud Trash Can'이 더 자연스러운 표현"
+      ],
+      "suggestion": "Where can I go to check my Cloud Recycle Bin?",
+      "reasoning": "원문의 핵심 의미가 정확하게 전달되었으며, 의미 손실이나 왜곡, 추가 없이 번역되었습니다. 다만 'Cloud Trash'라는 표현이 기술적으로는 이해 가능하지만 'Cloud Recycle Bin'이나 'Trash Can' 등이 더 일반적으로 사용되는 표현이므로 경미한 뉘앙스 차이가 있습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:51:57.358298"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "source": "삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?",
+      "translation": "Do I need a Samsung account to use Samsung Cloud?",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문과 번역문이 의미적으로 완전히 일치합니다. '삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?'가 'Do I need a Samsung account to use Samsung Cloud?'로 정확하게 번역되었으며, 의미 손실, 추가, 왜곡이 전혀 없습니다. 문법적으로도 자연스러우며 원문의 의도를 완벽하게 전달하고 있습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:52:15.435763"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "source": "삼성 계정을 단말에서 제거하면 어떻게 되나요?",
+      "translation": "What happens when you remove your Samsung account from the device?",
+      "method": "glossary",
+      "score": 4,
+      "verdict": "Pass",
+      "issues": [
+        "'your' 소유격 추가"
+      ],
+      "suggestion": "What happens when you remove a Samsung account from the device?",
+      "reasoning": "원문은 '삼성 계정'으로 일반적인 표현을 사용했으나, 번역문에서는 'your Samsung account'로 소유격을 추가했습니다. 핵심 의미는 동일하게 전달되었고, 실제로는 사용자 본인의 계정을 의미하는 것이 자연스러우므로 큰 문제는 아닙니다. 다만 원문의 표현을 더 충실히 반영하려면 'your'를 'a'로 바꾸거나 생략하는 것이 더 정확할 것입니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:52:20.110633"
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "source": "삼성 클라우드 웹페이지 접속 후 Contact us를 통해 '1대1 문의하기'로 문의해주시면 사용자 정보 확인 후 차단 해제가 가능합니다.",
+      "translation": "After accessing the Samsung Cloud webpage, please contact us through \"Contact us\" → \"1:1 inquiry\" and we can unblock your account after verifying your user information.",
+      "method": "glossary",
+      "score": 4,
+      "verdict": "Pass",
+      "issues": [
+        "원문의 '차단 해제'가 'unblock your account'로 번역되어 'account'라는 단어가 추가됨"
+      ],
+      "suggestion": "더 정확한 번역을 위해 'unblock your account' 대신 'lift the block' 또는 'remove the restriction' 사용 고려",
+      "reasoning": "전체적으로 원문의 의미가 정확하게 전달되었으나, '차단 해제'를 'unblock your account'로 번역하면서 원문에 없던 'account'라는 구체적인 대상이 추가되었습니다. 원문에서는 단순히 '차단 해제'라고 표현했는데, 번역문에서는 계정 차단 해제로 구체화되었습니다. 하지만 문맥상 자연스럽고 의미 전달에는 큰 문제가 없어 경미한 차이 수준입니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:52:25.943650"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "source": "갤럭시 단말이 현재 없습니다. 삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?",
+      "translation": "I don't currently have a Galaxy device. Is there a way to check data or information that was stored and synced to Samsung services?",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문의 모든 핵심 정보가 정확하게 번역되었습니다. '갤럭시 단말이 현재 없습니다'는 'I don't currently have a Galaxy device'로, '삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?'는 'Is there a way to check data or information that was stored and synced to Samsung services?'로 의미 손실이나 왜곡 없이 자연스럽게 번역되었습니다. 문맥과 어조도 적절히 유지되었으며, 숫자나 단위 관련 내용이 없어 해당 오류도 없습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:52:30.104261"
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "source": "특정 단말, 국가, 사업자에 따라 지원 여부는 다를 수 있습니다.",
+      "translation": "Support may vary depending on the specific device, country, or carrier.",
+      "method": "glossary",
+      "score": 5,
+      "verdict": "Pass",
+      "issues": [],
+      "suggestion": "",
+      "reasoning": "원문의 모든 핵심 요소가 정확하게 번역되었습니다. '특정 단말, 국가, 사업자에 따라'는 'depending on the specific device, country, or carrier'로, '지원 여부는 다를 수 있습니다'는 'Support may vary'로 의미와 뉘앙스가 완벽하게 전달되었습니다. 의미 손실, 추가, 왜곡이 전혀 없으며, 자연스러운 영어 표현으로 번역되었습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:52:34.130534"
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "source": "어디로 가면 클라우드 휴지통을 확인할 수 있나요?",
+      "translation": "Where can I go to check the cloud Trash?",
+      "method": "glossary",
+      "score": 4,
+      "verdict": "Pass",
+      "issues": [
+        "'Trash'의 대문자 표기가 부자연스러움"
+      ],
+      "suggestion": "Where can I go to check the cloud trash? 또는 Where can I go to check the cloud recycle bin?",
+      "reasoning": "원문의 핵심 의미가 정확하게 전달되었고, 의미 손실이나 왜곡, 추가된 내용이 없습니다. '클라우드 휴지통'이 'cloud Trash'로 번역된 것은 적절하지만, 'Trash'를 대문자로 표기한 것이 일반적인 영어 표현과는 다릅니다. 보통 'trash' 또는 'recycle bin'으로 소문자 표기가 자연스럽습니다. 하지만 이는 경미한 표기 문제로 전체적인 의미 전달에는 문제가 없습니다.",
+      "eval_type": "faithfulness",
+      "timestamp": "2026-01-04T20:52:37.913166"
+    }
+  ],
+  "summary": {
+    "zero_shot": {
+      "method": "Zero-shot",
+      "avg_score": 4.833333333333333,
+      "pass_count": 6,
+      "review_count": 0,
+      "fail_count": 0,
+      "total": 6
+    },
+    "few_shot": {
+      "method": "Few-shot",
+      "avg_score": 4.5,
+      "pass_count": 6,
+      "review_count": 0,
+      "fail_count": 0,
+      "total": 6
+    },
+    "glossary": {
+      "method": "용어집",
+      "avg_score": 4.5,
+      "pass_count": 6,
+      "review_count": 0,
+      "fail_count": 0,
+      "total": 6
+    }
+  },
+  "_metadata": {
+    "saved_at": "2026-01-04T20:53:04.683763",
+    "model": "Claude Sonnet 4"
+  }
+}

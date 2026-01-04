@@ -1,0 +1,20 @@
+{
+  "locale": "US",
+  "style_guide": {
+    "spelling_rules": [
+      "제품명은 정확한 공식 명칭 사용 (Samsung Cloud, Samsung Internet, Samsung Notes, Samsung Pass, Samsung Daily)",
+      "기술 용어의 일관된 표기 (sync/backup, backup/restore)",
+      "메뉴 경로는 '>' 기호로 구분 (Settings > Samsung Account > Samsung Cloud)",
+      "괄호를 사용한 부가 설명 제공 (Events (Calendar), version 3.X or higher)",
+      "하이픈을 사용한 목록 구조화",
+      "질문 형태의 소제목에 물음표 사용"
+    ],
+    "tone": "공식적이고 설명적인 톤. 기술 문서의 특성상 객관적이고 정확한 정보 전달에 중점을 둔 formal한 어조",
+    "pronoun_usage": "2인칭 'you/your' 중심 사용으로 사용자와의 직접적 소통. 1인칭은 거의 사용하지 않으며, 사용자 관점에서 서술",
+    "summary": "Samsung Cloud 서비스에 대한 기술 문서로, 제품 기능 설명과 FAQ 형식을 결합한 사용자 가이드. 공식적이면서도 접근하기 쉬운 언어로 복잡한 기술적 내용을 체계적으로 정리하여 제시하는 스타일을 보임"
+  },
+  "_metadata": {
+    "saved_at": "2026-01-04T21:56:46.558318",
+    "model": "Claude Sonnet 4"
+  }
+}

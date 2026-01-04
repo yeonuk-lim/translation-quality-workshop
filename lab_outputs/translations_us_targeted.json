@@ -1,0 +1,301 @@
+{
+  "translations": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "source": "삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?",
+      "translation": "Do I need a Samsung account to use Samsung Cloud?",
+      "reference": "Do I need a Samsung account to use Samsung Cloud?",
+      "locale": "US"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "source": "삼성 계정을 단말에서 제거하면 어떻게 되나요?",
+      "translation": "What happens if I remove my Samsung account from the device?",
+      "reference": "What happens if I remove my Samsung account?",
+      "locale": "US"
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "source": "삼성 클라우드 웹페이지 접속 후 Contact us를 통해 '1대1 문의하기'로 문의해주시면 사용자 정보 확인 후 차단 해제가 가능합니다.",
+      "translation": "After accessing the Samsung Cloud webpage, please contact us through Contact us using \"1:1 inquiry.\" We can unblock access after verifying your user information.",
+      "reference": "After accessing the Samsung Cloud web page, contact us through the \"1:1 inquiry\" in \"Contact us\". We will unlock your Samsung Cloud after confirming your user information.",
+      "locale": "US"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "source": "갤럭시 단말이 현재 없습니다. 삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?",
+      "translation": "I don't currently have a Galaxy device. Is there a way to check my data or information that was stored and synced to Samsung services?",
+      "reference": "I do not have a Galaxy device now. Is there a way to check my data or information stored and synchronized with Samsung services?",
+      "locale": "US"
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "source": "특정 단말, 국가, 사업자에 따라 지원 여부는 다를 수 있습니다.",
+      "translation": "Support may vary depending on the device, country, or carrier.",
+      "reference": "Not supported on certain devices, carriers' devices, or in certain countries.",
+      "locale": "US"
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "source": "어디로 가면 클라우드 휴지통을 확인할 수 있나요?",
+      "translation": "Where can I check the Cloud Trash?",
+      "reference": "Where can I find my Cloud Trash?",
+      "locale": "US"
+    }
+  ],
+  "similarity_evals": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "score": 5,
+      "differences": [],
+      "reasoning": "번역문과 레퍼런스가 완전히 동일합니다. 문장 구조, 단어 선택, 의미가 모두 일치하며 어떠한 차이점도 발견되지 않습니다."
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "score": 4,
+      "differences": [
+        "번역문에 'from the device'가 추가됨"
+      ],
+      "reasoning": "두 문장 모두 삼성 계정 제거 시 발생하는 상황에 대해 묻는 동일한 의미를 전달합니다. 번역문의 'from the device'는 원문의 '단말에서'를 반영한 것으로, 의미상 중요한 차이는 없지만 레퍼런스보다 약간 더 구체적인 표현입니다."
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "score": 4,
+      "differences": [
+        "'웹페이지' vs 'web page' (띄어쓰기)",
+        "'차단 해제' vs 'unlock' (표현 방식)",
+        "'We can unblock' vs 'We will unlock' (조동사와 시제)",
+        "인용부호 위치와 문장 구조의 미세한 차이"
+      ],
+      "reasoning": "두 번역문 모두 원문의 핵심 의미를 정확히 전달하고 있습니다. 삼성 클라우드 웹페이지 접속, Contact us를 통한 1:1 문의, 사용자 정보 확인 후 차단 해제라는 주요 내용이 동일하게 표현되어 있습니다. 'unblock'과 'unlock', 'can'과 'will' 등의 표현 차이가 있지만 의미상 큰 차이는 없으므로 의미동일 수준입니다."
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "score": 4,
+      "differences": [
+        "don't currently have vs do not have now",
+        "stored and synced to vs stored and synchronized with"
+      ],
+      "reasoning": "두 번역문은 의미상 완전히 동일합니다. 주요 차이점은 'don't currently have'와 'do not have now'의 표현 방식, 그리고 'synced to'와 'synchronized with'의 동의어 사용입니다. 이러한 차이는 스타일적인 것으로 핵심 의미에는 영향을 주지 않습니다."
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "score": 3,
+      "differences": [
+        "번역문은 '지원이 다를 수 있다'는 가변성을 표현하는 반면, 레퍼런스는 '지원되지 않는다'는 명확한 제한을 표현",
+        "번역문은 'may vary'로 불확실성을 나타내지만, 레퍼런스는 'Not supported'로 확정적 제한을 명시",
+        "전체적인 뉘앙스가 다름: 번역문은 조건부 지원 가능성, 레퍼런스는 특정 조건에서의 미지원"
+      ],
+      "reasoning": "두 문장 모두 단말, 국가, 사업자라는 동일한 조건 요소들을 언급하고 있어 주제는 유사하지만, 핵심 의미가 다릅니다. 번역문은 지원 수준의 변동 가능성을 나타내는 반면, 레퍼런스는 특정 상황에서의 명확한 미지원을 표현합니다."
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "score": 4,
+      "differences": [
+        "check vs find"
+      ],
+      "reasoning": "두 번역문 모두 클라우드 휴지통의 위치를 묻는 질문으로 의미가 완전히 동일합니다. 'check'와 'find'는 문맥상 같은 의도를 나타내며, 나머지 구조와 단어는 거의 동일합니다."
+    }
+  ],
+  "quality_evals": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "faithfulness": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "원문의 의미가 번역문에 완벽하게 전달되었습니다. '삼성 클라우드를 사용하려면'은 'to use Samsung Cloud'로, '삼성 계정이 필요한가요?'는 'Do I need a Samsung account'로 정확히 번역되어 문법적으로도 자연스럽고 의미상으로도 동일합니다."
+      },
+      "terminology": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "번역문에서 사용된 모든 용어가 용어집을 완벽하게 준수하고 있습니다. 'Samsung account'와 'Samsung Cloud'가 용어집의 규정대로 정확히 번역되었으며, 다른 용어집 항목과의 충돌이나 위반 사항이 전혀 없습니다."
+      },
+      "tone": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "제공된 번역문은 Samsung Cloud 기술 문서의 FAQ 섹션에 완벽하게 부합하는 톤과 스타일을 보여줍니다. 'Do I need~?' 형식의 직접적이고 명확한 질문 구조는 사용자 가이드의 전형적인 FAQ 스타일이며, 공식적이면서도 접근하기 쉬운 언어를 사용하고 있습니다. 복잡한 기술적 개념(Samsung account, Samsung Cloud)을 간단명료하게 표현하여 일반 사용자도 쉽게 이해할 수 있도록 구성되어 있으며, 스타일가이드에서 요구하는 체계적이고 사용자 친화적인 접근 방식을 완벽하게 구현하고 있습니다."
+      }
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "faithfulness": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "원문의 의미와 뉘앙스가 번역문에 완벽하게 보존되었습니다. '삼성 계정을 단말에서 제거하면'이 'remove my Samsung account from the device'로, '어떻게 되나요?'가 'What happens if'로 정확하게 번역되어 의문문의 형태와 의미가 그대로 전달되었습니다."
+      },
+      "terminology": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "번역문에서 용어집에 해당하는 용어는 'Samsung account'와 'device'입니다. 'Samsung account'는 용어집의 '삼성 계정 → Samsung account' 규칙을 완벽히 준수하고 있으며, 'device'는 용어집에 별도 규정이 없어 일반적인 번역으로 적절합니다. 모든 용어가 용어집 기준에 부합하므로 완벽 준수입니다."
+      },
+      "tone": {
+        "score": 2,
+        "issues": [
+          "한국어 번역이 아닌 영어 원문이 제공됨",
+          "스타일가이드에서 요구하는 공식적이면서 접근하기 쉬운 한국어 표현 부재",
+          "FAQ 형식의 질문을 한국어로 번역하지 않음",
+          "Samsung Cloud 기술 문서의 톤 미반영"
+        ],
+        "reasoning": "제공된 텍스트는 번역문이 아닌 영어 원문입니다. 스타일가이드에서 요구하는 '공식적이면서도 접근하기 쉬운 언어'로 된 한국어 번역이 필요하며, Samsung Cloud 서비스 관련 FAQ는 일반적으로 '기기에서 삼성 계정을 제거하면 어떻게 되나요?' 형태로 번역되어야 합니다. 현재 상태로는 톤과 스타일 평가가 불가능합니다."
+      }
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "faithfulness": {
+        "score": 4,
+        "issues": [
+          "'Contact us를 통해 Contact us' 부분에서 원문의 중복 표현이 번역에서 'through Contact us'로 단순화됨",
+          "'차단 해제가 가능합니다'가 'We can unblock access'로 번역되어 slightly less formal tone"
+        ],
+        "reasoning": "전체적으로 의미 전달이 정확하고 핵심 내용이 모두 포함되어 있음. '삼성 클라우드 웹페이지 접속', '1대1 문의하기', '사용자 정보 확인', '차단 해제' 등 주요 요소들이 적절히 번역됨. 다만 원문의 'Contact us를 통해' 부분의 표현이 약간 단순화되고, 문체가 slightly less formal하게 번역된 경미한 차이가 있음"
+      },
+      "terminology": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "번역문에서 사용된 모든 용어가 용어집을 완벽하게 준수하고 있습니다. 'Samsung Cloud'는 '삼성 클라우드'의 올바른 번역이며, 'Contact us'는 용어집에서 그대로 유지하도록 지정된 용어로 정확히 사용되었고, '1:1 inquiry'는 '1대1 문의하기'의 올바른 번역입니다. 다른 모든 표현들도 용어집의 규칙에 따라 적절히 번역되었습니다."
+      },
+      "tone": {
+        "score": 2,
+        "issues": [
+          "문법 오류: 'Contact us through Contact us using'에서 'Contact us' 중복",
+          "어색한 표현: 'contact us through Contact us' 구조가 부자연스름",
+          "비공식적 톤: 'please'의 반복적 사용으로 인한 구어체적 느낌",
+          "체계적이지 못한 구조: 단계별 안내가 명확하지 않음",
+          "전문성 부족: 기술 문서답지 않은 캐주얼한 문체"
+        ],
+        "reasoning": "스타일가이드에서 요구하는 '공식적이면서도 접근하기 쉬운 언어로 복잡한 기술적 내용을 체계적으로 정리'하는 기준에 부합하지 않음. 문법 오류와 어색한 표현으로 인해 전문성이 떨어지고, FAQ 형식의 명확한 단계별 안내가 부족함. 기술 문서로서의 품질과 신뢰성이 현저히 부족한 상태"
+      }
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "faithfulness": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "번역이 원문의 의미를 정확하고 완전하게 전달하고 있습니다. '갤럭시 단말이 현재 없습니다'는 'I don't currently have a Galaxy device'로, '삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?'는 'Is there a way to check my data or information that was stored and synced to Samsung services?'로 자연스럽고 정확하게 번역되었습니다. 문맥과 어조도 적절하게 유지되었으며, 기술적 용어들도 올바르게 번역되었습니다."
+      },
+      "terminology": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "번역문에서 용어집에 해당하는 모든 용어들이 올바르게 사용되었습니다. 'data'는 용어집에 따라 그대로 유지되었고, 'synced'는 용어집의 'sync'와 일치하며, 'Samsung services'는 적절한 표현입니다. 용어집 위반 사항이 전혀 없습니다."
+      },
+      "tone": {
+        "score": 2,
+        "issues": [
+          "스타일가이드와 언어가 불일치 (영어 vs 한국어)",
+          "공식적이고 체계적인 기술문서 스타일이 아닌 일반적인 질문 형태",
+          "Samsung Cloud 서비스 가이드에 적합한 전문적 톤 부족",
+          "FAQ 형식의 구조적 특성이 반영되지 않음"
+        ],
+        "reasoning": "제공된 번역문이 영어로 되어 있어 한국어 기반의 Samsung Cloud 기술문서 스타일가이드와 언어적으로 불일치합니다. 또한 스타일가이드에서 요구하는 '공식적이면서도 접근하기 쉬운 언어로 복잡한 기술적 내용을 체계적으로 정리'하는 특성보다는 단순한 사용자 질문의 형태를 보이고 있어 전문적인 기술문서의 톤과 구조가 부족합니다."
+      }
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "faithfulness": {
+        "score": 4,
+        "issues": [
+          "'특정'이라는 한정사가 번역에서 누락됨"
+        ],
+        "reasoning": "번역이 원문의 핵심 의미를 정확히 전달하고 있으며, 문법적으로도 자연스럽습니다. '특정 단말, 국가, 사업자'가 'device, country, or carrier'로 적절히 번역되었고, '지원 여부는 다를 수 있습니다'가 'Support may vary depending on'으로 잘 표현되었습니다. 다만 '특정'이라는 한정사가 생략되어 경미한 차이가 있지만, 전체적인 의미 전달에는 큰 영향을 주지 않습니다."
+      },
+      "terminology": {
+        "score": 5,
+        "issues": [],
+        "reasoning": "제공된 번역문 'Support may vary depending on the device, country, or carrier.'에는 용어집에 명시된 어떤 용어도 포함되어 있지 않습니다. 따라서 용어집 준수 여부를 평가할 대상이 없으며, 위반 사항도 없어 완벽 준수로 평가합니다."
+      },
+      "tone": {
+        "score": 4,
+        "issues": [
+          "한국어 번역이 제공되지 않음",
+          "기술 문서의 일관성을 위해 한국어 번역 필요"
+        ],
+        "reasoning": "제공된 텍스트는 영어 원문만 있고 한국어 번역이 없어 직접적인 톤과 스타일 평가가 제한적입니다. 하지만 영어 원문 자체는 Samsung Cloud 기술 문서의 스타일가이드와 잘 부합합니다. 'Support may vary'라는 표현은 공식적이면서도 명확하고, 'device, country, or carrier'와 같은 구체적인 변수 제시는 기술 문서다운 체계적 접근을 보여줍니다. 사용자가 이해하기 쉬운 간결한 문장 구조도 접근성 있는 언어 사용이라는 가이드라인과 일치합니다."
+      }
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "faithfulness": {
+        "score": 4,
+        "issues": [
+          "'어디로 가면'의 의미가 완전히 전달되지 않음"
+        ],
+        "reasoning": "전체적으로 의미가 잘 전달되었으나, '어디로 가면'은 단순히 'Where'보다는 'Where do I go to' 또는 'How can I access'가 원문의 뉘앙스를 더 정확히 반영함. 하지만 실용적 관점에서 의미 전달에는 문제없음."
+      },
+      "terminology": {
+        "score": 2,
+        "issues": [
+          "'Cloud Trash'에서 'Cloud'는 용어집에 따라 'Samsung Cloud'로 번역되어야 함",
+          "'Trash'는 휴지통 기능을 의미하므로 적절한 한국어 번역이 필요함"
+        ],
+        "reasoning": "용어집에 '삼성 클라우드 → Samsung Cloud'가 명시되어 있어 'Cloud'만 단독으로 사용하는 것은 용어집 위반입니다. 또한 원문이 한국어에서 영어로 번역된 것으로 보이는데, 'Cloud Trash'는 '클라우드 휴지통' 또는 'Samsung Cloud 휴지통'으로 번역되어야 합니다. 용어집의 핵심 용어를 준수하지 않아 심각한 위반에 해당합니다."
+      },
+      "tone": {
+        "score": 4,
+        "issues": [
+          "'Cloud Trash'라는 용어가 Samsung Cloud 서비스의 공식 용어와 일치하지 않을 가능성",
+          "FAQ 형식의 질문치고는 다소 직접적이고 간단한 표현"
+        ],
+        "reasoning": "전반적으로 명확하고 이해하기 쉬운 표현으로 사용자 가이드에 적합한 톤을 유지하고 있습니다. 'Where can I check'라는 표현은 FAQ 형식에 자연스럽고 접근하기 쉬운 언어 사용 원칙에 부합합니다. 다만 'Cloud Trash'가 Samsung Cloud의 정확한 기능명인지 확인이 필요하며, 보다 체계적인 가이드 스타일을 위해서는 '휴지통 기능을 어디서 확인할 수 있나요?' 같은 좀 더 구체적인 표현이 더 적합할 수 있습니다."
+      }
+    }
+  ],
+  "summary": {
+    "similarity_avg": 4.0,
+    "faithfulness_avg": 4.5,
+    "terminology_avg": 4.5,
+    "tone_avg": 3.1666666666666665
+  },
+  "glossary": {
+    "삼성 클라우드": "Samsung Cloud",
+    "삼성 계정": "Samsung account",
+    "삼성 인터넷": "Samsung Internet",
+    "Samsung Notes": "Samsung Notes",
+    "Samsung Pass": "Samsung Pass",
+    "Samsung Daily": "Samsung Daily",
+    "동기화": "synchronization/sync",
+    "백업": "backup",
+    "복원": "restore",
+    "백업/복원": "backup/restore",
+    "연동": "linked",
+    "서버": "server",
+    "데이터": "data",
+    "OS": "OS",
+    "RAM": "RAM",
+    "S/W": "software",
+    "설정": "Settings",
+    "일정": "Events",
+    "캘린더": "Calendar",
+    "연락처": "Contacts",
+    "갤러리": "Gallery",
+    "리마인더": "Reminders",
+    "AR 이모지": "AR emojis",
+    "통화 기록": "Call logs",
+    "시계": "Clock settings",
+    "메시지": "Messages",
+    "홈 화면": "Home screen layout",
+    "애플리케이션": "Apps",
+    "단말의 설정": "Device settings",
+    "음성 녹음": "Voice recordings",
+    "더 보기": "More",
+    "앱스 화면": "Apps screen",
+    "Contact us": "Contact us",
+    "1대1 문의하기": "1:1 inquiry"
+  },
+  "style_guide": {
+    "spelling_rules": [
+      "제품명은 정확한 공식 명칭 사용 (Samsung Cloud, Samsung Internet, Samsung Notes, Samsung Pass, Samsung Daily)",
+      "기술 용어의 일관된 표기 (sync/backup, backup/restore)",
+      "메뉴 경로는 '>' 기호로 구분 (Settings > Samsung Account > Samsung Cloud)",
+      "괄호를 사용한 부가 설명 제공 (Events (Calendar), version 3.X or higher)",
+      "하이픈을 사용한 목록 구조화",
+      "질문 형태의 소제목에 물음표 사용"
+    ],
+    "tone": "공식적이고 설명적인 톤. 기술 문서의 특성상 객관적이고 정확한 정보 전달에 중점을 둔 formal한 어조",
+    "pronoun_usage": "2인칭 'you/your' 중심 사용으로 사용자와의 직접적 소통. 1인칭은 거의 사용하지 않으며, 사용자 관점에서 서술",
+    "summary": "Samsung Cloud 서비스에 대한 기술 문서로, 제품 기능 설명과 FAQ 형식을 결합한 사용자 가이드. 공식적이면서도 접근하기 쉬운 언어로 복잡한 기술적 내용을 체계적으로 정리하여 제시하는 스타일을 보임"
+  },
+  "_metadata": {
+    "saved_at": "2026-01-04T22:00:18.871206",
+    "model": "Claude Sonnet 4"
+  }
+}

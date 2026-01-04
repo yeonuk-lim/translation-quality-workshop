@@ -1,0 +1,94 @@
+{
+  "translations": [
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_02",
+      "source": "삼성 클라우드를 사용하려면 삼성 계정이 필요한가요?",
+      "source_lang": "ko",
+      "target_lang": "en",
+      "translation": "Do I need a Samsung account to use Samsung Cloud?",
+      "method": "glossary",
+      "reference_us": "Do I need a Samsung account to use Samsung Cloud?",
+      "reference_gb": "Do I need my Samsung account to use Samsung Cloud?",
+      "timestamp": "2026-01-04T20:28:26.369678"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_03",
+      "source": "삼성 계정을 단말에서 제거하면 어떻게 되나요?",
+      "source_lang": "ko",
+      "target_lang": "en",
+      "translation": "What happens when you remove your Samsung account from the device?",
+      "method": "glossary",
+      "reference_us": "What happens if I remove my Samsung account?",
+      "reference_gb": "What happens if I delete my Samsung account?",
+      "timestamp": "2026-01-04T20:28:27.215566"
+    },
+    {
+      "id": "IDS_FAQ_SC_ACCESSING_TEXT",
+      "source": "삼성 클라우드 웹페이지 접속 후 Contact us를 통해 '1대1 문의하기'로 문의해주시면 사용자 정보 확인 후 차단 해제가 가능합니다.",
+      "source_lang": "ko",
+      "target_lang": "en",
+      "translation": "After accessing the Samsung Cloud webpage, please contact us through \"Contact us\" → \"1:1 inquiry\" and we can unblock your account after verifying your user information.",
+      "method": "glossary",
+      "reference_us": "After accessing the Samsung Cloud web page, contact us through the \"1:1 inquiry\" in \"Contact us\". We will unlock your Samsung Cloud after confirming your user information.",
+      "reference_gb": "After accessing the Samsung Cloud web page, contact us through the \"1:1 enquiry\" in \"Contact us\". We will unlock your Samsung Cloud after confirming your user information.",
+      "timestamp": "2026-01-04T20:28:28.358334"
+    },
+    {
+      "id": "IDS_FAQ_SC_MAIN_HEADER_13",
+      "source": "갤럭시 단말이 현재 없습니다. 삼성 서비스에 저장 및 동기화했던 데이터나 정보를 확인할 수 있는 방법이 있나요?",
+      "source_lang": "ko",
+      "target_lang": "en",
+      "translation": "I don't currently have a Galaxy device. Is there a way to check data or information that was stored and synced to Samsung services?",
+      "method": "glossary",
+      "reference_us": "I do not have a Galaxy device now. Is there a way to check my data or information stored and synchronized with Samsung services?",
+      "reference_gb": "I do not have a Galaxy device now. Is there a way to check my data or information stored and synchronised with Samsung services?",
+      "timestamp": "2026-01-04T20:28:30.308907"
+    },
+    {
+      "id": "IDS_FAQ_GO_DEVICE_NOTES_UL_01",
+      "source": "특정 단말, 국가, 사업자에 따라 지원 여부는 다를 수 있습니다.",
+      "source_lang": "ko",
+      "target_lang": "en",
+      "translation": "Support may vary depending on the specific device, country, or carrier.",
+      "method": "glossary",
+      "reference_us": "Not supported on certain devices, carriers' devices, or in certain countries.",
+      "reference_gb": "Not supported on certain devices, networks' devices, or in certain countries.",
+      "timestamp": "2026-01-04T20:28:31.122887"
+    },
+    {
+      "id": "IDS_FAQ_GO_MAIN_HEADER_27",
+      "source": "어디로 가면 클라우드 휴지통을 확인할 수 있나요?",
+      "source_lang": "ko",
+      "target_lang": "en",
+      "translation": "Where can I go to check the cloud Trash?",
+      "method": "glossary",
+      "reference_us": "Where can I find my Cloud Trash?",
+      "reference_gb": "Where can I find my cloud's Recycle bin?",
+      "timestamp": "2026-01-04T20:28:31.944870"
+    }
+  ],
+  "glossary": {
+    "Samsung Cloud": "Samsung Cloud",
+    "Samsung account": "Samsung account",
+    "Samsung Galaxy": "Galaxy",
+    "Galaxy": "Galaxy",
+    "OneDrive": "OneDrive",
+    "Microsoft": "Microsoft",
+    "동기화": "sync",
+    "백업": "backup",
+    "복원": "restore",
+    "단말": "device",
+    "저장공간": "storage",
+    "휴지통": "Trash",
+    "설정": "Settings",
+    "계정": "account",
+    "연동": "integration",
+    "암호화": "encryption",
+    "더 보기": "More",
+    "문의하기": "Contact us"
+  },
+  "_metadata": {
+    "saved_at": "2026-01-04T20:28:37.938791",
+    "model": "Claude Sonnet 4"
+  }
+}
